@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/views/sign_up/SignUpScreen.dart';
+import 'package:jogs_store/views/sign_up/SignUpScreen.dart';
 import '../../utils/size_config.dart';
-import 'package:ecommerce_app/utils/form_error.dart';
-import 'package:ecommerce_app/utils/keyboard.dart';
-import 'package:ecommerce_app/views/home/home_screen.dart';
+import 'package:jogs_store/utils/form_error.dart';
+import 'package:jogs_store/utils/keyboard.dart';
+import 'package:jogs_store/views/home/home_screen.dart';
 import '../../utils/constants.dart';
 import 'Reset_Password.dart';
-import 'package:ecommerce_app/models/social_card.dart';
+import 'package:jogs_store/models/social_card.dart';
 import '../../view_models/auth_viewModel.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/utils/size_config.dart';
+import 'package:jogs_store/utils/size_config.dart';
 import 'categories.dart';
-import 'package:ecommerce_app/utils/constants.dart';
-import 'package:ecommerce_app/models/category.dart';
+import 'package:jogs_store/utils/constants.dart';
+import 'package:jogs_store/models/category.dart';
 import 'package:provider/provider.dart';
-import 'package:ecommerce_app/view_models/globalVariables_viewModel.dart';
+import 'package:jogs_store/view_models/globalVariables_viewModel.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:ecommerce_app/views/home/components/searchBar.dart';
-import 'package:ecommerce_app/views/home/components/homeShimmer.dart';
+import 'package:jogs_store/views/home/components/searchBar.dart';
+import 'package:jogs_store/views/home/components/homeShimmer.dart';
 
 class HomeBody extends StatefulWidget {
   @override

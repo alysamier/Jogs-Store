@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/utils/size_config.dart';
+import 'package:jogs_store/utils/size_config.dart';
 
 const PrimaryColor = Colors.black;
 const PrimaryLightColor = Color(0xffebeded);

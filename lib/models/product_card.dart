@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/models/Product.dart';
-import 'package:ecommerce_app/views/prodDetails/details_screen.dart';
+import 'package:jogs_store/models/Product.dart';
+import 'package:jogs_store/views/prodDetails/details_screen.dart';
 import '../utils/constants.dart';
 import '../utils/size_config.dart';
 import 'package:cached_network_image/cached_network_image.dart';

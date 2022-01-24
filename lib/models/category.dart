@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/models/product_card.dart';
-import 'package:ecommerce_app/views/category/categoryScreen.dart';
+import 'package:jogs_store/models/product_card.dart';
+import 'package:jogs_store/views/category/categoryScreen.dart';
 import '../utils/size_config.dart';
 import '../views/home/components/section_title.dart';
 import 'package:provider/provider.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/models/cartItem.dart';
+import 'package:jogs_store/models/cartItem.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:ecommerce_app/models/Product.dart';
+import 'package:jogs_store/models/Product.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class globalVars with ChangeNotifier {

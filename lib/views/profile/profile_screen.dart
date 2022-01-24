@@ -1,15 +1,15 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/utils/constants.dart';
-import 'package:ecommerce_app/views/profile/components/orders/ordersScreen.dart';
-import 'package:ecommerce_app/views/profile/components/userInfo/userInfo.dart';
-import 'package:ecommerce_app/views/profile/components/profClone.dart';
-import 'package:ecommerce_app/views/sign_in/SignInScreen.dart';
+import 'package:jogs_store/utils/constants.dart';
+import 'package:jogs_store/views/profile/components/orders/ordersScreen.dart';
+import 'package:jogs_store/views/profile/components/userInfo/userInfo.dart';
+import 'package:jogs_store/views/profile/components/profClone.dart';
+import 'package:jogs_store/views/sign_in/SignInScreen.dart';
 import '../../utils/size_config.dart';
 import '../../view_models/auth_viewModel.dart';
 import 'package:provider/provider.dart';
 import '../../view_models/globalVariables_viewModel.dart';
-import 'package:ecommerce_app/utils/SignInMessage.dart';
+import 'package:jogs_store/utils/SignInMessage.dart';
 
 class ProfileScreen extends StatefulWidget {
   static String routeName = "/profile";

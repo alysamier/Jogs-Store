@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/utils/form_error.dart';
-import 'package:ecommerce_app/views/home/home_screen.dart';
+import 'package:jogs_store/utils/form_error.dart';
+import 'package:jogs_store/views/home/home_screen.dart';
 import '../../utils/constants.dart';
 import '../../utils/size_config.dart';
 import '../../view_models/auth_viewModel.dart';
@@ -10,7 +10,7 @@ import 'package:provider/provider.dart';
 import 'package:progress_state_button/iconed_button.dart';
 import 'package:progress_state_button/progress_button.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:ecommerce_app/utils/keyboard.dart';
+import 'package:jogs_store/utils/keyboard.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
 
 class SignUpScreen extends StatefulWidget {

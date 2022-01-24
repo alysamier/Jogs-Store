@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/utils/constants.dart';
-import 'package:ecommerce_app/utils/size_config.dart';
+import 'package:jogs_store/utils/constants.dart';
+import 'package:jogs_store/utils/size_config.dart';
 import 'package:progress_state_button/progress_button.dart';
-import 'package:ecommerce_app/views/sign_in/SignInScreen.dart';
+import 'package:jogs_store/views/sign_in/SignInScreen.dart';
 
 class SignInMessage extends StatefulWidget {
   @override

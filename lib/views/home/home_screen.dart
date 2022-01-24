@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/utils/constants.dart';
+import 'package:jogs_store/utils/constants.dart';
 import 'package:titled_navigation_bar/titled_navigation_bar.dart';
 import 'components/body.dart';
-import 'package:ecommerce_app/utils/size_config.dart';
-import 'package:ecommerce_app/views/favourites/Favs_screen.dart';
-import 'package:ecommerce_app/views/cart/cart_screen.dart';
-import 'package:ecommerce_app/views/profile/profile_screen.dart';
-import 'package:ecommerce_app/view_models/globalVariables_viewModel.dart';
+import 'package:jogs_store/utils/size_config.dart';
+import 'package:jogs_store/views/favourites/Favs_screen.dart';
+import 'package:jogs_store/views/cart/cart_screen.dart';
+import 'package:jogs_store/views/profile/profile_screen.dart';
+import 'package:jogs_store/view_models/globalVariables_viewModel.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {

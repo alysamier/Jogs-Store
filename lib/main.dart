@@ -1,15 +1,15 @@
-import 'package:ecommerce_app/views/profile/profile_screen.dart';
-import 'package:ecommerce_app/views/sign_in/SignInScreen.dart';
-import 'package:ecommerce_app/views/sign_up/SignUpScreen.dart';
+import 'package:jogs_store/views/profile/profile_screen.dart';
+import 'package:jogs_store/views/sign_in/SignInScreen.dart';
+import 'package:jogs_store/views/sign_up/SignUpScreen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ecommerce_app/view_models/globalVariables_viewModel.dart';
-import 'package:ecommerce_app/views/home/home_screen.dart';
-import 'package:ecommerce_app/utils/theme.dart';
+import 'package:jogs_store/view_models/globalVariables_viewModel.dart';
+import 'package:jogs_store/views/home/home_screen.dart';
+import 'package:jogs_store/utils/theme.dart';
 import 'view_models/auth_viewModel.dart';
-import 'package:ecommerce_app/utils/routes.dart';
+import 'package:jogs_store/utils/routes.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

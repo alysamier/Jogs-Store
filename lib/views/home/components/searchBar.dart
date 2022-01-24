@@ -1,4 +1,4 @@
-import 'package:ecommerce_app/views/home/components/searchScreen.dart';
+import 'package:jogs_store/views/home/components/searchScreen.dart';
 import 'package:flutter/material.dart';
 import '../../../utils/constants.dart';
 import '../../../utils/size_config.dart';

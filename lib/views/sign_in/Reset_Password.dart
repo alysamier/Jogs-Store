@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/utils/constants.dart';
-import 'package:ecommerce_app/utils/size_config.dart';
-import 'package:ecommerce_app/utils/form_error.dart';
+import 'package:jogs_store/utils/constants.dart';
+import 'package:jogs_store/utils/size_config.dart';
+import 'package:jogs_store/utils/form_error.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:progress_state_button/iconed_button.dart';
 import 'package:progress_state_button/progress_button.dart';

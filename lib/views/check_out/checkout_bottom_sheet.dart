@@ -1,18 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/utils/constants.dart';
-import 'package:ecommerce_app/utils/size_config.dart';
+import 'package:jogs_store/utils/constants.dart';
+import 'package:jogs_store/utils/size_config.dart';
 import 'package:animated_size_and_fade/animated_size_and_fade.dart';
-import 'package:ecommerce_app/view_models/globalVariables_viewModel.dart';
+import 'package:jogs_store/view_models/globalVariables_viewModel.dart';
 import 'package:provider/provider.dart';
 import '../../../view_models/auth_viewModel.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:ecommerce_app/view_models/user_info_viewModel.dart';
+import 'package:jogs_store/view_models/user_info_viewModel.dart';
 import 'package:nanoid/nanoid.dart';
 import 'package:progress_state_button/iconed_button.dart';
 import 'package:progress_state_button/progress_button.dart';
 import 'package:internet_connection_checker/internet_connection_checker.dart';
-import 'package:ecommerce_app/views/profile/components/userInfo/userInfo.dart';
+import 'package:jogs_store/views/profile/components/userInfo/userInfo.dart';
 
 class checkoutBottomSheet extends StatefulWidget {
   bool paymentSection = false;

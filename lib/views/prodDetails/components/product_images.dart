@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ecommerce_app/models/Product.dart';
+import 'package:jogs_store/models/Product.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:ecommerce_app/utils/constants.dart';
-import 'package:ecommerce_app/utils/size_config.dart';
+import 'package:jogs_store/utils/constants.dart';
+import 'package:jogs_store/utils/size_config.dart';
 
 class ProductImages extends StatefulWidget {
   const ProductImages({
