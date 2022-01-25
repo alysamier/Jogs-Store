@@ -46,7 +46,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               vertical: getProportionateScreenHeight(15)),
                           height: double.infinity,
                           width: double.infinity,
-                          color: PrimaryColor,
+                          decoration: BoxDecoration(
+                              image: DecorationImage(
+                                  image: NetworkImage(gv.UserInfo['img'] ??
+                                      "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"),
+                                  fit: BoxFit.cover)),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: [
@@ -63,7 +67,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                               ),
                               Align(
                                 alignment: Alignment.centerLeft,
-                                child: Text(u.isAnonymous? 'Welcome Back'  : gv.UserInfo['Full Name'],
+                                child: Text(
+                                  u.isAnonymous
+                                      ? 'Welcome Back'
+                                      : gv.UserInfo['Full Name'],
                                   maxLines: 3,
                                   softWrap: false,
                                   overflow: TextOverflow.ellipsis,

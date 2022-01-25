@@ -23,8 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        Provider<auth_viewModel>(
-            create: (_) => auth_viewModel(FirebaseAuth.instance)),
+        Provider<auth_viewModel>(create: (_) => auth_viewModel(FirebaseAuth.instance)),
         StreamProvider(
           initialData: 0,
           create: (context) => context.read<auth_viewModel>().authStateChanges,

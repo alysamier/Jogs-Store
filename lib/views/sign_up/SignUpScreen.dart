@@ -162,15 +162,16 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 'Phone Number': _phoneNumber,
                 'Governorate': _selectedGov,
                 'Address': _address,
+                'img': "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
               });
 
-            await context.read<auth_viewModel>().signUp(
-                email: _email,
-                password: _password,
-                fullName: _fullName,
-                phoneNumber: _phoneNumber,
-                governorate: _selectedGov,
-                address: _address);
+            // await context.read<auth_viewModel>().signUp(
+            //     email: _email,
+            //     password: _password,
+            //     fullName: _fullName,
+            //     phoneNumber: _phoneNumber,
+            //     governorate: _selectedGov,
+            //     address: _address);
 
             User user = context.read<auth_viewModel>().CurrentUser();
 

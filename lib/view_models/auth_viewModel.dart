@@ -12,12 +12,12 @@ class auth_viewModel {
 
   Future<User> AnonymousOrCurrent() async {
     if (_firebaseAuth.currentUser == null) {
-     await _firebaseAuth.signInAnonymously();
+      await _firebaseAuth.signInAnonymously();
     }
-   return _firebaseAuth.currentUser;
+    return _firebaseAuth.currentUser;
   }
   Future<void> signOut() async {
-   await _firebaseAuth.signOut();
+    await _firebaseAuth.signOut();
   }
 
   Future<UserCredential> signIn({String email, String password}) async {
@@ -40,6 +40,7 @@ class auth_viewModel {
       String fullName,
       String phoneNumber,
       String governorate,
+      String img = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
       String address}) async {
     if (_firebaseAuth.currentUser.isAnonymous) {
       try {
@@ -50,7 +51,7 @@ class auth_viewModel {
         User user = result.user;
 
         await user_info_viewModel(uid: user.uid)
-            .addUserData(fullName, phoneNumber, governorate, address);
+            .addUserData(fullName, phoneNumber, governorate, address, img);
         return result;
       } on FirebaseAuthException catch (e) {
         if (e.code == 'weak-password') {
@@ -66,7 +67,8 @@ class auth_viewModel {
         UserCredential result = await _firebaseAuth.createUserWithEmailAndPassword(email: email, password: password);
         User user = result.user;
 
-        await user_info_viewModel(uid: user.uid).addUserData(fullName, phoneNumber, governorate, address);
+        await user_info_viewModel(uid: user.uid)
+            .addUserData(fullName, phoneNumber, governorate, address, img);
         return result;
       } on FirebaseAuthException catch (e) {
         if (e.code == 'weak-password') {

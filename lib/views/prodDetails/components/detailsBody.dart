@@ -77,11 +77,17 @@ class _BodyState extends State<Body> {
                 color: Color(0xfff6f8f8),
                 child: Column(
                   children: [
-                    Flexible(
-                      flex: 16,
-                      child: ProductDescription(
-                        product: widget.product,
-                        pressOnSeeMore: () {},
+                    Container(
+                      height: 80,
+                      child: ListView(
+                        children: [
+                          Container(
+                            child: ProductDescription(
+                              product: widget.product,
+                              pressOnSeeMore: () {},
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                     Flexible(
@@ -94,7 +100,7 @@ class _BodyState extends State<Body> {
                             Flexible(
                               flex: 5,
                               child:
-                                  gv.AllProds['Shoes'].contains(widget.product)
+                                  gv.AllProds['shoes'].contains(widget.product)
                                       ? Row(
                                           crossAxisAlignment:
                                               CrossAxisAlignment.center,
@@ -234,13 +240,14 @@ class _BodyState extends State<Body> {
                 color: Colors.white,
               ),
               color: PrimaryColor),
-          ButtonState.idle: IconedButton(
-              text: "The item is not added",
-              icon: Icon(
-                Icons.cancel,
-                color: Colors.white,
-              ),
-              color: PrimaryColor)
+          // ButtonState.idle: IconedButton(
+          //     text: "The item is not added",
+          //     icon: Icon(
+          //       Icons.cancel,
+          //       color: Colors.white,
+          //     ),
+          //     color: PrimaryColor
+          //     )
         },
         onPressed: () => onPressedIconWithText(gv, u),
         state: stateTextWithIcon);

@@ -164,7 +164,7 @@ class _checkoutBottomSheetState extends State<checkoutBottomSheet> {
                     color: PrimaryColor,
                   ),
                 ),
-                Spacer(),
+                // Spacer(),
                 GestureDetector(
                     onTap: () {
                       Navigator.pop(context);
@@ -403,7 +403,7 @@ class _checkoutBottomSheetState extends State<checkoutBottomSheet> {
               fontWeight: FontWeight.w600,
             ),
           ),
-          Spacer(),
+          // Spacer(),
           trailingText == null
               ? trailingWidget
               : overflow
